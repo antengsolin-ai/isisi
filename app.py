@@ -381,7 +381,7 @@ def handle_requests():
     elif server_name in {"BR", "US", "SAC", "NA"}:
         like_url = "https://client.us.freefiremobile.com/LikeProfile"
     else:
-        like_url = "https://loginbp.ppmainecoonghj.com/LikeProfile"
+        like_url = "https://clientbp.ggpolarbear.com/LikeProfile"
 
     # Send likes with smart checking
     result = asyncio.run(send_all_likes(uid, server_name, like_url))
